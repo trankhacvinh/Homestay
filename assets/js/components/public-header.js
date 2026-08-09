@@ -1,3 +1,0 @@
-
-window.Delong=window.Delong||{};
-Delong.PublicHeader={render(active=''){const db=Delong.Store.load();return `<header class="public-header"><div class="container inner"><a class="brand" href="index.html"><span class="brand-mark">D</span><span>${Delong.Utils.escape(db.property.name)}</span></a><nav class="public-nav"><a class="${active==='home'?'active':''}" href="index.html">Trang chủ</a><a class="${active==='rooms'?'active':''}" href="rooms.html">Phòng</a><a class="${active==='booking'?'active':''}" href="booking.html">Đặt phòng</a><a href="admin/login.html">Quản trị</a></nav><a class="btn btn-primary btn-sm" href="booking.html">Đặt phòng</a></div></header>`}}
